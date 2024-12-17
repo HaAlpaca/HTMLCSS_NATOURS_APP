@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "HaAlpaca",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.7.1"
+  },
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}
